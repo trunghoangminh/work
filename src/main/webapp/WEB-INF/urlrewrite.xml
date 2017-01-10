@@ -1,0 +1,10 @@
+<urlrewrite default-match-type="wildcard">
+	<rule match-type="regex">
+		<from>^/([a-z0-9]+)$</from>
+		<to>/products</to>
+	</rule>
+	<rule match-type="regex">
+		<from>products</from>
+		<to>/index.html</to>
+	</rule>
+</urlrewrite>
